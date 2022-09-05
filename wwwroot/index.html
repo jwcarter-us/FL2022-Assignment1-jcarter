@@ -3,19 +3,43 @@
 <head>
     <meta charset="utf-8" />
     <title>MIS 521 Assignment 1</title>
+            <!-- Bootstrap icons-->
+    <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+    <link href="../../root.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css">
+    
 </head>
 <body>
+    
     <div>
-        <h1 id="title" align="center">The Dark Knight</h1>
-        <h5 id="rating" align="center">IMDB Score: 9.0/10.0</h5>
-        <h5 id="ranking" align="center">Top ranked movie #3</h5>
-        
-        <p><a href="https://www.imdb.com/title/tt0468569/?ref_=nv_sr_srsg_0">
-        <img src="https://cdn.shopify.com/s/files/1/1057/4964/products/The-Dark-Knight-Vintage-Movie-Poster-Original-1-Sheet-27x41_2c6e8b8f-b309-4db0-9ed6-bb7a837c88ea.jpg?v=1637384602" id="CoverArt" alt="imdb.com" width="300" height=auto>
-        </a>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UwrOQ2pYDxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="Trailer"></iframe></p>
-    </div>
+        <div class="header">
+            <h1 id="Title" align="center">The Dark Knight (2008)</h1>
+            <h3 id="Director" align="center">Directed by Christopher Nolan</h3>
+            <h5 id="Rating" align="center">IMDB Score: 9.0/10.0</h5>
+            <h5 id="Ranking" align="center">Top ranked movie <b>#3</b></h5>
+        </div>
+        <hr>
+        <div id="Media">
+            <a href="https://www.imdb.com/title/tt0468569/?ref_=nv_sr_srsg_0">
+            <img src="https://cdn.shopify.com/s/files/1/1057/4964/products/The-Dark-Knight-Vintage-Movie-Poster-Original-1-Sheet-27x41_2c6e8b8f-b309-4db0-9ed6-bb7a837c88ea.jpg?v=1637384602" id="CoverArt" alt="imdb.com" width="auto" height=325 class="dnimage">
+            </a>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UwrOQ2pYDxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="Trailer"></iframe>
+        </div>
 
-    Hello World!
+        <hr>
+        <h2>Summary</h2>
+        <p id="Summary"> 
+            When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+        </p>
+        <hr>
+        <ul style="list-style-type: square;" id="Actors"><h1>Lead Cast</h1>
+            <li><b id="realName"><a href="https://www.imdb.com/name/nm0000288/?ref_=tt_cl_t_1">Christian Bale:</a></b> Bruce Wayne/Batman</li>
+            <li><b id="realName"><a href="https://www.imdb.com/name/nm0000323/?ref_=tt_cl_t_4">Michael Caine:</a></b> Alfred</li>
+            <li><b id="realName"><a href="https://www.imdb.com/name/nm0005132/?ref_=tt_cl_t_2">Heath Ledger:</a></b> Joker</li>
+            <li><b id="realName"><a href="https://www.imdb.com/name/nm0000198/?ref_=tt_cl_t_6">Gary Oldman:</a></b> James Gordon</li>
+            <li><b id="realName"><a href="https://www.imdb.com/name/nm0001173/?ref_=tt_cl_t_3">Aaron Eckhart:</a></b> Harvey Dent</li>
+
+        </ul>
+    </div>
 </body>
 </html>

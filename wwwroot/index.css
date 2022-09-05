@@ -1,0 +1,110 @@
+body {
+    background-color: #1F1F1F;
+}
+
+.header{
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+#Media{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+h5{
+    color: white;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+ul{
+    
+    color:white;
+    text-align: center;
+    align-content: center;
+    list-style-position: inside;
+    
+}
+li{
+    font-family: Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+#CoverArt{
+    border-radius: 25px;
+    background: black;
+    padding: 20px;
+    width: 300;
+    height: 500;
+}
+
+#Summary{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20x;
+    text-align: center;
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+#Trailer{
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+#realName{
+    font-size : 20px;
+    color : darkgray
+}
+
+a:link {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CF3C12;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
